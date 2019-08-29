@@ -20,6 +20,7 @@ apim-gw-cicd: &jenkinsHostName "jenkins.gmt.layer7.broadcom.com"              # 
 apim-gw-cicd: &jenkinsIp "cicd-cluster-1-jenkins-ip"                      # Jenkins IP assigned
 apim-gw-cicd: null
 
+
 apim-service-metrics-runtime: &grafanaAdminPassword "7layer"  # Define admin password for grafana
 apim-service-metrics-runtime: &grafanaHost "grafana.gmt.layer7.broadcom.com"  # Grafana hostname assigned
 apim-service-metrics-runtime: &grafanaIP "cicd-cluster-1-grafana-ip"      # Grafana IP assigned
